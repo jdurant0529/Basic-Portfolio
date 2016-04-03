@@ -1,54 +1,97 @@
-
-/* 
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this css file and the HTML to see how things line up. 
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
-
-body {
-	margin: 0;
-	padding: 0;
-	background: #efeee7;
-	font-size: 18px;
-	line-height: 150%;
-	font-family: "Georgia",Times New Roman,Times,serif;
-	color: #333333;
+.header, .footer {
+	font-family:'Georgia', Times, Times New Roman, serif;
 }
-header {
-	background: #d21034;
+
+
+.header {
+	background-color: #ffffff;
+	border-color: #ddd;
+	height:100px;
+	width: 100%;
+	margin: 20px;
+
+
+
+
 }
-h1 {
-	background: #333333;
-	padding: 20px 0;
-	color: #eee;
-	margin: 0;
-	font-size: 28px;
+
+.title {
+	float:left;
+	background-color:#4aaaa5;
+	padding:10px 25px;
+	font-size: 35px;
+	margin:20px 100px 0px 100px;
+	text-align:center;
+
+}
+
+.nav{
+	float:left;
+	border:50px;
+	margin:50px;
+	font-size: 15px;
+
+}
+
+.entireSection{
+	width:960px;
+	background-image: url("../images/leather_1.png");
+	float:left;
+	margin: 50px;
+	border:50px;
+}
+.section{
+	float:left;
+	width: 650px;
+	height: auto;
+	margin:20px;
+	background-color:#ffffff;
+}
+
+#bio-image{
+	width:25%;
+	height: auto;
+	float:left;
+	margin: 10px;
+
+
+}
+
+.link-image{
+	width:50px;
+	height:auto;
+
+
+
+}
+.aside{
+	float: right;
+	width: 230px;
+	background-color:#ffffff;
+	margin: 20px;
+	text-align:center;
+
+}
+
+.h3{
+	float:left;
+
+
+}
+
+.h2{
+	border-bottom-color: 
+}
+.h1{
+
+
+}
+
+
+.footer{
+	clear: both;
+  	margin-bottom: 0;
 	text-align: center;
-	margin-bottom: 20px;
+	background-color: #666666;
 }
-h2 {
-	font-size: 24px;
-}
-a {
-	color: #d21034;
-}
-.container {
-	width: 1024px;
-	margin: 0 auto;
-}
-#main-bio,
-#contact-info,
-#bio-image {
-	float: left;
-}
-#main-bio {
-	width: 70%;
-}
-#contact-info {
-	width: 30%;
-}
-#bio-image {
-	width: 200px;
-	height: 200px;
-	margin-right: 20px;
-}
+
