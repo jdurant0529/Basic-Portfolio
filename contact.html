@@ -8,28 +8,75 @@
 </head>
 
 <body>
-	<div class = "header">
-		<div class = "Title">
+	<!-- HEADER -->
+	<div class= "header">
+		<!-- Header Title -->
+		<div class = "title">
 			<h1>James Durant</h1>
 		</div>
-		<div class = "nav">
-			<h3><a href = "index.html">About</a>
-			<h3><a href = "Portfolio.html">Portfolio</a>
-			<h3><a href = "contact.html">Contact</a>
+
+		<!-- Nav Bar on HEADER  -->
+		<h4>
+		<div class = "nav" >
+			
+			<a href = "index.html">About</a>
+			<a href = "Portfolio.html">Portfolio</a>
+			<a href = "contact.html">Contact</a>	
 		</div>
+		</h4>
 	</div>
+	<!-- End of HEADER -->
 
-	<div class "entire_content">
-		<div class "main_section">
+	<!-- Start of entireSection, able to use same div as index and portfolio -->
+	<div class= "entireSection">
+		<div class="section">
+
+			<h2>Contact</h2>
+
+			<div class ="form">
+
+				<form>
+				<label>	Name: </label><br>
+				<input type ="text" name = "name" placeholder="John Smith">
+				<br>
+				<label> Email: </label><br>
+				<input type = "text" email ="email"placeholder="example@gmail.com"> <br>
+				<label> Message:</label> <br>
+				<textarea name = "textarea" message="message" rows="20"></textarea> <br>
+
+				 <input type="submit" value="Submit">
+
+				</form>
+
+			</div>
+
 
 		</div>
+		<div class="aside">
+			
+			<h3>Connect with me</h3>
+
+			<p>
+
+			<a href = "https://github.com/jdurant0529"> <img src="assets/images/github_icon.png" alt = "github logo"target="_blank" class = "link-image" ></a>
+			<a href = "https://www.linkedin.com/jamesrdurant"> <img src="assets/images/linkedin_icon.png" alt = "linkedin logo" target="_blank" class = "link-image"></a>
+			<a href = "stackoverflowlink"> <img src="assets/images/stackoverflow_icon.png" alt="stack overflow link" target="_blank" class="link-image"></a>
+
+			</p>
+
+		</div>
+
 	</div>
 
-	<div class = "footer">
-		<h4>&copy;Copywrite 2016 - James Durant 
-	</div>
+	<!-- Start of FOOTER -->
+	<footer>
+		<div class = "footer">
+			<h5>Copywrite 2016 - James Durant</h5>
+		</div>
+	<!-- End of FOOTER -->
+
 
 </body>
 
 
-</footer>
+</html>
