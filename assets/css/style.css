@@ -1,8 +1,13 @@
-.header, .footer {
-	font-family:'Georgia', Times, Times New Roman, serif;
+.body{
+	color: #777777;
 }
 
 
+}
+
+.h1, .h2, .h3, .h4, .h5 {font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
 .header {
 	background-color: #ffffff;
 	border-color: #ddd;
@@ -10,27 +15,39 @@
 	width: 100%;
 }
 
+.header h1{
+
+}
 .title {
 	float:left;
 	background-color:#4aaaa5;
 	padding:10px 15px 10px 15px;
 	margin:0px 100px 0px 100px;
 	text-align:left;
+
 }
 
 .nav{
 	float:left;
 	width:250px;
-}
+	color: #777777;
 
+}
+.nav a {
+	color:#777777;
+	margin:10px;
+
+}
 
 .entireSection{
 	width:960px;
 	background-image: url("../images/leather_1.png");
 	float:left;
-	margin: 50px;
-	border:50px;
-}
+	margin: 15px;
+	border:15px;
+	color: #777777;
+
+}	
 .section{
 	float:left;
 	width: 610px;
@@ -63,7 +80,13 @@
 	margin: 20px;
 	text-align:center;
 	list-style-type: none;
-
+}
+.aside ul{
+	list-style: none;
+}
+.aside li {
+	float:left;
+	padding:5px;
 }
 
 
@@ -74,9 +97,7 @@
 	background-color: #666666;
 }
 
-.h1{
 
-}
 
 .h2{
 
@@ -92,10 +113,4 @@
 
 .h5{
 
-}
-
-label, input, textarea{
-	display:block;
-	/*margin:2px;*/
-	width: 90%;
 }
