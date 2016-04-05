@@ -11,19 +11,23 @@
 .header {
 	background-color: #ffffff;
 	border-color: #ddd;
-	height:100px;
+	height:40px;
 	width: 100%;
+
 }
 
 .header h1{
+	margin:10px;
+
 
 }
 .title {
 	float:left;
 	background-color:#4aaaa5;
 	padding:10px 15px 10px 15px;
-	margin:0px 100px 0px 100px;
+	margin:0px 375px 0px 100px;
 	text-align:left;
+	
 
 }
 
@@ -31,11 +35,18 @@
 	float:left;
 	width:250px;
 	color: #777777;
+	width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
 
 }
 .nav a {
 	color:#777777;
-	margin:10px;
+	margin:15px;
+	float: left;
+	align: center;
 
 }
 
@@ -43,16 +54,17 @@
 	width:960px;
 	background-image: url("../images/leather_1.png");
 	float:left;
-	margin: 15px;
+	margin: 0px 15px 0px 15px;
 	border:15px;
 	color: #777777;
+
 
 }	
 .section{
 	float:left;
-	width: 610px;
+	width: 550px;
 	height: auto;
-	margin:20px;
+	margin: 20px 20px 20px 75px;
 	background-color:#ffffff;
 	padding:20px;
 }
@@ -80,6 +92,7 @@
 	margin: 20px;
 	text-align:center;
 	list-style-type: none;
+
 }
 .aside ul{
 	list-style: none;
@@ -90,11 +103,12 @@
 }
 
 
-.footer{
-	clear: both;
+footer{
+	
   	margin-bottom: 0;
 	text-align: center;
 	background-color: #666666;
+	clear: both;
 }
 
 
