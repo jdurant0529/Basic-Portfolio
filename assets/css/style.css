@@ -1,34 +1,55 @@
+
+
 .body{
 	color: #777777;
+	height: 100%;
+
 }
 
+.wrapper{
+	width:960px;
+	margin-bottom: -25px;
+	min-height: 100%;
+	margin: 0 auto;
+
 
 }
+.wrapper:after {
+  content: "";
+  display: block;
+}
 
+.wrapper:after .footer {
+	height: 25px; 
+
+}
 .h1, .h2, .h3, .h4, .h5 {font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 .header {
 	background-color: #ffffff;
-	border-color: #ddd;
-	height:40px;
-	width: 100%;
 
 }
 
+
 .header h1{
-	margin:10px;
+	font-size: 20px;
+	color:#ffffff;
+	font-weight:bold;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	border-left:50px;
 
 
 }
 .title {
 	float:left;
 	background-color:#4aaaa5;
-	padding:10px 15px 10px 15px;
-	margin:0px 375px 0px 100px;
-	text-align:left;
-	
-
+	width:250px;
+	text-align:left
+	height:50px;
+	margin-left:50px;
 }
 
 .nav{
@@ -36,39 +57,80 @@
 	width:250px;
 	color: #777777;
 	width: auto;
-    height: auto;
+    height: 25px;
     margin: 0 auto;
-    padding: 20px;
-    position: relative;
-
+    line-height:40px;
+    padding-left:400px;
 }
 .nav a {
 	color:#777777;
-	margin:15px;
 	float: left;
 	align: center;
+	padding-left:10px;
 
 }
 
 .entireSection{
+
+	/*background-image: url("../images/leather_1.png");*/
 	width:960px;
-	background-image: url("../images/leather_1.png");
-	float:left;
-	margin: 0px 15px 0px 15px;
-	border:15px;
-	color: #777777;
+	/*color: #777777;*/
+	
+	border-top-color:#cccccc;
+	border-top-width: 3px;
+	border-top-style: solid;
 
-
+	border-bottom-color:#4aaaa5;
+	border-bottom-width: 6px;
+	border-bottom-style: solid;
+	overflow:auto;
 }	
 .section{
 	float:left;
-	width: 550px;
+	width: 650px;
 	height: auto;
-	margin: 20px 20px 20px 75px;
 	background-color:#ffffff;
-	padding:20px;
+	overflow:auto;
+
 }
 
+.section table {
+	margin: 0 auto;
+	border-collapse: separate;
+    border-spacing: 40px;
+
+}
+
+.section h2{
+	color: #4aaaa5;
+	font-weight:bold;
+	float:left;
+/*	border-left:50px;
+	padding: 10px;*/
+	overflow:auto;
+}
+
+.section td {
+	background-image: url("http://placehold.it/200x200");
+	height: 200px;
+	width: 200px;
+	text-align: center;
+
+}
+
+.section h3{
+	background-color:#4aaaa5;
+	position:relative;
+	top:150px;
+	padding:10px;
+	color:#ffffff;
+
+}
+
+.form{
+	overflow:auto;
+	float:left;
+}
 #bio-image{
 	width:25%;
 	height: auto;
@@ -82,36 +144,50 @@
 	width:50px;
 	height:auto;
 
-
-
 }
 .aside{
 	float: right;
-	width: 230px;
+	width: 270px;
 	background-color:#ffffff;
-	margin: 20px;
-	text-align:center;
+	
 	list-style-type: none;
-
+	/*margin-right:5px;*/
+	margin: 0 auto;
 }
+
+.aside h3 {
+	text-align: center;
+	color: #4aaaa5;
+	font-weight: bold;
+	padding:10px;
+}
+
 .aside ul{
 	list-style: none;
+	text-align:center;
+	margin:0 auto;
+
 }
 .aside li {
 	float:left;
-	padding:5px;
+	margin:0 auto;
+
 }
 
 
 footer{
-	
-  	margin-bottom: 0;
 	text-align: center;
 	background-color: #666666;
 	clear: both;
+	height: 25px; 
+	color: #ffffff;
+	line-height:25px;
+
 }
 
-
+.h1 {
+	
+}
 
 .h2{
 
