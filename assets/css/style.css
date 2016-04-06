@@ -1,28 +1,18 @@
 
-
+body {
+	background-image: url("../images/leather_1.png");
+}
 .body{
 	color: #777777;
 	height: 100%;
-
 }
 
 .wrapper{
 	width:960px;
-	margin-bottom: -25px;
-	min-height: 100%;
 	margin: 0 auto;
 
-
-}
-.wrapper:after {
-  content: "";
-  display: block;
 }
 
-.wrapper:after .footer {
-	height: 25px; 
-
-}
 .h1, .h2, .h3, .h4, .h5 {font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
@@ -72,9 +62,8 @@
 
 .entireSection{
 
-	/*background-image: url("../images/leather_1.png");*/
+	
 	width:960px;
-	/*color: #777777;*/
 	
 	border-top-color:#cccccc;
 	border-top-width: 3px;
@@ -84,6 +73,7 @@
 	border-bottom-width: 6px;
 	border-bottom-style: solid;
 	overflow:auto;
+	position:relative;
 }	
 .section{
 	float:left;
@@ -104,10 +94,8 @@
 .section h2{
 	color: #4aaaa5;
 	font-weight:bold;
-	float:left;
-/*	border-left:50px;
-	padding: 10px;*/
 	overflow:auto;
+	width:100%;
 }
 
 .section td {
@@ -130,6 +118,15 @@
 .form{
 	overflow:auto;
 	float:left;
+	margin: 0 auto;
+
+}
+.form input {
+	width: 600px;
+	margin:25px;
+}
+.form textarea {
+	
 }
 #bio-image{
 	width:25%;
@@ -146,12 +143,13 @@
 
 }
 .aside{
+	position:relative;
+	right:20px;
+	top:20px;
 	float: right;
 	width: 270px;
-	background-color:#ffffff;
-	
+	background-color:#ffffff;	
 	list-style-type: none;
-	/*margin-right:5px;*/
 	margin: 0 auto;
 }
 
