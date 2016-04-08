@@ -11,60 +11,75 @@
 	<div class ="wrapper">
 
 		<!-- HEADER -->
-		<div class= "header">
+		<header>
 			<!-- Header Title -->
 			<div class = "title">
 				<h1>James Durant</h1>
 			</div>
 
 			<!-- Nav Bar on HEADER  -->
-			<h4>
-			<div class = "nav" >
-				
-				<a href = "index.html">About</a>
-				<a href = "Portfolio.html">Portfolio</a>
-				<a href = "contact.html">Contact</a>	
-			</div>
+		
+			<nav>
+				<h4>
+				<ul>
+
+				<li class = "right"><a href="Portfolio.html">Portfolio</a></li>
+				<li class = "right"><a href="contact.html">Contact</a>
+				</li>
+				<li class = "right"><a href="index.html">About</a>
+				</li>
+			</ul>
 			</h4>
-		</div>
+			</nav>
+			
+		</header>
 		<!-- End of HEADER -->
 
 		<!-- Start of entireSection, able to use same div as index and portfolio -->
-		<div class= "entireSection">
+		<div class= "mainContent">
 			<div class="section">
+				<div class = "sectionContent">
+					<div class = "sectionTitle">
+						<h2>Contact</h2>	
+					</div>
 
-				<h2>Contact</h2>
+					<div class ="form">
 
-				<div class ="form">
+						<form id = "form1">
+						<label>	Name: </label><br>
+						<input type ="text" name = "name" placeholder="  John Smith" >
+						<br>
+						<label> Email: </label><br>
+						<input type = "text" email ="email"placeholder="  example@gmail.com"> <br>
+						<label> Message:</label> <br>
+						<textarea name = "textarea" message="message" rows="15"></textarea> <br>
 
-					<form>
-					<label>	Name: </label><br>
-					<input type ="text" name = "name" placeholder="John Smith">
-					<br>
-					<label> Email: </label><br>
-					<input type = "text" email ="email"placeholder="example@gmail.com"> <br>
-					<label> Message:</label> <br>
-					<textarea name = "textarea" message="message" rows="20"></textarea> <br>
+						 <button type="submit" form="form1" value="Submit">Submit</button>
 
-					 <input type="submit" value="Submit">
+						</form>
 
-					</form>
+					</div>
+				</div>
 
+			</div>
+			<aside>
+				
+				<div class = "asideTitle">
+				<h4>Connect with me</h4>
+				</div>
+
+				<div class="right connectIcons">
+					<div class="iconCenter">
+						<a href="https://github.com/jdurant0529" target="_blank"> <img src="assets/images/github_icon.png" alt = "github logo" class = "link-image"></a>
+						<a  href = "https://www.linkedin.com/in/jamesrdurant" target="_blank"> <img src="assets/images/linkedin_icon.png" alt = "linkedin logo"  class = "link-image"></a>
+				
+						<a href = "stackoverflowlink" target="_blank"> <img src="assets/images/stackoverflow_icon.png" alt="stack overflow link"  class="link-image"></a>
+					</div>
+	
 				</div>
 
 
-			</div>
-			<div class="aside">
-				
-				<h3>Connect with me</h3>
-
-
-				<ul>
-					<li><a href = "https://github.com/jdurant0529" target="_blank"> <img src="assets/images/github_icon.png" alt = "github logo" class = "link-image" ></a></li>
-					<li><a href = "https://www.linkedin.com/in/jamesrdurant" target="_blank"> <img src="assets/images/linkedin_icon.png" alt = "linkedin logo"  class = "link-image"></a></li>
-					<li><a href = "stackoverflowlink" target="_blank"> <img src="assets/images/stackoverflow_icon.png" alt="stack overflow link"  class="link-image"></a></li>
-				</ul>
-			</div>
+			</aside>
 
 		</div>
 
