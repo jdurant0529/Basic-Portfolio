@@ -322,7 +322,6 @@ footer, .push {
 	
 	.mainContent{
 		width:100%;
-		/*margin:0 auto;*/
 	}
 	.section{
 		width:90%;
@@ -386,21 +385,40 @@ footer, .push {
 
 	.mainContent{
 		width: 100%;
-		/*float:left;*/
+		clear:both;
 	}
 
 	.section{
-		width: 60%;
+		width: 40%;
+		float:none;
+		clear:both;
 	}
-
+	.sectionContent{
+		width: 80%;
+		float:right;
+	}
+	/*.sectionTitle{
+		float:left;
+	}*/
 	#bio-image {
 		width:100%;
 		height:100%;
 }
-	.asideTitle{
-		width: 40%;
-		height:50px;
+		aside {
+		height:150px;
 		float:right;
+		clear:both;
+		margin: 0 auto;
+		width:30%;
+		background-color: white;
+		text-align:center;
+		margin-top:20px;/*
+		overflow:auto;*/
+	}
+	.asideTitle{
+		width: 35%;
+		height:50px;
+		/*float:right;*/
 		/*width:50%;*/
 		background-color: white;
 		text-align:center;
@@ -408,7 +426,7 @@ footer, .push {
 		/*margin-bottom:20px;*/
 	}
 	.asideTitle{
-		float:none;
+		float:left;
 		width:80%;
 		margin:0 auto;
 	}
