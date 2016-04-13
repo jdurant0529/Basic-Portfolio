@@ -155,7 +155,6 @@ aside{
 	text-align: center;
 	color: #4aaaa5;
 	font-weight: bold;
-	/*margin: 40px 0px;*/
 	border:2px;
 	border-style: solid;
 	border-color: #dddddd;
@@ -174,7 +173,6 @@ aside{
 	border-bottom-style: solid;
 }
 form {
-	/*width: 80%;*/
 	margin: 0 auto;
 }
 input {
@@ -201,9 +199,7 @@ footer{
 	color: #ffffff;
 	line-height:25px;
 }
-/*h4{
-	padding:0px 20px;
-}*/
+
 .right{
 	float:right;
 }
@@ -236,8 +232,6 @@ footer{
 h1 {
 	font-size: 30px;
 	line-height: 49px;
-	/*border-bottom: 3px solid #ddd;*/
-	/*padding-bottom: 20px;*/
 }
 h2, h3 {
 	font-size: 22px;
@@ -285,7 +279,6 @@ footer, .push {
 	}
 	.mainContent{
 		width:100%;
-		/*margin:0 auto;*/
 	}
 	.section{
 		width:90%;
@@ -317,7 +310,6 @@ footer, .push {
 		margin-top:20px;
 	}
 	.asideTitle{
-		/*float:none;*/
 		width:80%;
 		margin:0 auto;
 	}
@@ -350,7 +342,6 @@ footer, .push {
 	
 	.mainContent{
 		width:100%;
-		/*margin:0 auto;*/
 	}
 	.section{
 		width:90%;
@@ -383,7 +374,6 @@ footer, .push {
 		background-color: white;
 		text-align:center;
 		margin-top:20px;
-		/*margin-bottom:20px;*/
 	}
 	.asideTitle{
 		float:none;
@@ -411,7 +401,6 @@ footer, .push {
 			  and (min-width: 769px){
 	.wrapper {
 		width:100%;
-		/*margin: 0 auto;*/
 	}
 	header{
 		width:100%;
@@ -443,12 +432,10 @@ footer, .push {
 		width: 38%;
 		height:auto;
 		float:right;
-		/*width:50%;*/
 		background-color: white;
 		text-align:center;
 		overflow:auto;
-		/*margin-top:20px;*/
-		/*margin-bottom:20px;*/
+
 	}
 	.asideTitle{
 	
