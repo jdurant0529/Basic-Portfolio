@@ -250,7 +250,7 @@ footer, .push {
 	height: 125px; /* '.push' must be the same height as 'footer' */
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 1024px){
 	header{
 		width:100%;
 		height:80px;
