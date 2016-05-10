@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 // Initial array of movies
-	var emotion = ['happy', 'sad', 'excited', 'laugh'];
+	var emotion = ['happy', 'sad', 'excited', 'bored','hungry','angry'];
 
 	// ========================================================
 
@@ -94,6 +94,7 @@ $( document ).ready(function() {
 		$('#gifButtons').empty();
 		var val = $('.form-control').val();
 		emotion.push(val);
+		$('.form-control').val('');
 		renderButtons();
 
 	});
