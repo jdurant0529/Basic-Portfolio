@@ -1,0 +1,233 @@
+body{
+	background:black;
+}
+.wrapper{
+	width:960px;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: 700;
+	color: white;
+}
+header{
+	height:150px;
+	overflow:auto;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: center;
+	line-height: 200%;
+}
+header img{
+	max-width:100%;
+	max-height:100%;
+}
+footer{
+	width:100%;
+	text-align: center;
+	clear: both;
+}
+.leftSide{
+	border:3px solid white;
+	width:49%;
+	height: 400px;
+	color:white;
+}
+
+.left-image{
+	width:100%;
+	max-height: 100%;
+}
+
+.rightSide{
+	border:3px solid white;
+	width:49%;
+	height: 400px;
+	color:white;
+	text-align: center;
+	float:right;
+}
+
+.game{
+	color:white;
+}
+
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+.clearfix{
+	clear:both;
+}
+
+@media screen and (max-width: 640px){
+	header{
+		width:100%;
+		height:80px;
+		margin:0 auto;
+		height:90px;
+		clear:both;
+	}
+	header img{
+		max-width:30%;
+		max-height:100%;
+		float:left;
+}
+	.title {
+		width:100%;
+		clear:both;
+		margin:0 auto;
+		height:90px;
+		overflow:auto;
+	}
+	.col-sm-4:nth-child(3n+0){
+		display:none;
+	}
+	.wrapper {
+		width:100%;
+	}
+	.mainContent{
+		width:100%;
+		clear: both;
+	}
+	.leftSide {
+		width:90%;
+		margin:0 auto;
+		float:none;
+		clear:both;
+		height:50%;
+	}
+	.TV {
+		height: 25%;
+		width:25%;
+	}
+	.rightSide {
+		width: 90%;
+		float:none;
+		margin:0 auto;
+		height:200px;
+
+	}
+	footer{
+	width:100%;
+	text-align: center;
+	
+}
+}
+
+@media screen and (max-width: 768px)
+			  and (min-width: 641px){
+	header{
+		width:100%;
+		/*height:80px;*/
+		margin:0 auto;
+		height:105px;
+		clear:both;
+		overflow:auto;
+	}
+	header img{
+		max-width:30%;
+		max-height:80%;
+		float:left;
+		clear:both;
+}
+	.title {
+		width:100%;
+		clear:both;
+		margin:0 auto;
+		height:105px;
+		overflow:auto;
+	}
+	.col-sm-4:nth-child(3n+0){
+		display:none;
+		height:95%;
+	}
+	.wrapper {
+		width:100%;
+	}
+	.mainContent{
+		width:100%;
+		clear: both;
+		margin:0 auto;
+	}
+	.leftSide {
+		width:45%;
+		margin:0 auto;
+		height:50%;
+	}
+	.TV {
+		height: 25%;
+		width:25%;
+	}
+	.rightSide {
+		width: 45%;
+		margin:0 auto;
+		height:200px;
+
+	}
+	footer{
+	width:100%;
+	text-align: center;
+	
+}
+}
+
+@media screen and (max-width: 980px)
+			  and (min-width: 769px){
+	header{
+		width:100%;
+		/*height:80px;*/
+		margin:0 auto;
+		height:105px;
+		clear:both;
+		overflow:auto;
+	}
+	header img{
+		max-width:30%;
+		max-height:80%;
+		float:left;
+		clear:both;
+}
+	.title {
+		width:100%;
+		clear:both;
+		margin:0 auto;
+		height:105px;
+		overflow:auto;
+	}
+	.col-sm-4:nth-child(3n+0){
+		display:none;
+		height:95%;
+	}
+	.wrapper {
+		width:100%;
+	}
+	.mainContent{
+		width:100%;
+		clear: both;
+		margin:0 auto;
+	}
+	.leftSide {
+		width:45%;
+		margin:0 auto;
+		height:50%;
+	}
+	.TV {
+		height: 25%;
+		width:25%;
+	}
+	.rightSide {
+		width: 45%;
+		margin:0 auto;
+		height:200px;
+
+	}
+	footer{
+	width:100%;
+	text-align: center;
+	
+}
+}
